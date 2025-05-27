@@ -1,43 +1,29 @@
 
-
-p{
-    color:brown;
-}
-h1{
-    font-size: 20px;
-
-    color:blue;
-}
 .container{
-    background-color: aqua;
-}
-/*target the child elemlent of its parent element*/
-.container p{
-    color:blue;
+    background-color: cadetblue;
 
 }
-#college{
-    background-color:blueviolet;
+
+#image{
+    background-color:aqua;
     display: flex;
     flex-wrap: wrap;
-    flex-direction:row;
+    flex-direction:column;
     padding:4px;
 }
-#collage p{
-    color:brown;
-}
-img{
-    height:100px;
 
-    width:50px;
+img{
+    height:300px;
+    width:200px;
     margin: 10px;
     margin-top: 10px;
     margin-bottom:10px;
     margin-left:30px ;
     margin-right:10px ;
-    color:"#478220";
+
 
 }
+
 
 
 
