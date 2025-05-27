@@ -1,0 +1,59 @@
+
+
+p{
+    color:brown;
+}
+h1{
+    font-size: 20px;
+
+    color:blue;
+}
+.container{
+    background-color: aqua;
+}
+/*target the child elemlent of its parent element*/
+.container p{
+    color:blue;
+
+}
+#college{
+    background-color:blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    padding:4px;
+}
+#collage p{
+    color:brown;
+}
+img{
+    height:100px;
+
+    width:50px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left:30px ;
+    margin-right:10px ;
+    color:"#478220";
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[
