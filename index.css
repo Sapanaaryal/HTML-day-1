@@ -3,68 +3,47 @@
 {
     margin:0;
 }
-
-
-
-
 .nav{
     height: 3rem;
-    background-color:brown;
-    text-align: center;
-
+    background-color:brown;   
 }
 .navigation{
-    padding-top: 2vh;
-    /* padding-left: 80vh; */
-    text-align: right;
+    padding-top: 4vh;
+    text-align:right;
 }
 
 .navigation a{
-    text-decoration: none;
+  text-decoration: none;
     color:white;
     padding-left: 12vh;
      
 }
 /*main section*/
+.About{
+    
+    background-color:aqua;
+    color:black;
+    text-align: center;
+}
+   img {
+height: 100px;
+width:100px;
+border-radius: 50%;
+text-align: center;
+    }
+    
+.contact{
+    
+    background-color:aqua;
+    color:black;
+    text-align: center;
+    padding-top: 4vh;
+}
 
-
-.one{
-    
-    background-color: blue;
-    color:white;
-    text-align: center;
-}
-.two{
-    
-    background-color:darkgreen;
-    color: white;
-    text-align: center;
-}
-.three{
-  
-    background-color:chocolate;
-    color:white;
-    text-align: center;
-}
-.four{
-    
-    background-color:chartreuse;
-    color:white;
-    text-align: center;
-}
-.five{
-     
-    background-color:darkorchid;
-    color:white;
-    text-align: center;
-}
-.five img{
-  
-    width:10vh;
-    border-radius: 50%;
-    border: 8px salmon;
-}
 .footer{
     height: 3rem;
     background-color: blue;
+    color:white;
+    text-align: center;
+    padding-top: 4vh;
 }
