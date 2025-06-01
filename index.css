@@ -4,7 +4,7 @@
     margin:0;
 }
 .nav{
-    height: 3rem;
+    
     background-color:brown;   
 }
 .navigation{
@@ -29,7 +29,6 @@
 height: 100px;
 width:100px;
 border-radius: 50%;
-text-align: center;
     }
     
 .contact{
