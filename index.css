@@ -2,47 +2,136 @@
 *
 {
     margin:0;
+    padding:0;
 }
-.nav{
+nav{
     
-    background-color:brown;   
+    background-color:cornflowerblue; 
+    display:flex;  
+    justify-content: space-between;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
 }
-.navigation{
-    padding-top: 4vh;
-    text-align:right;
+.logo1{
+    list-style: none;
+    display: flex;
 }
-
-.navigation a{
-  text-decoration: none;
-    color:white;
-    padding-left: 12vh;
-     
+.logo1 li{
+    padding-left: 1rem;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold ;
+}
+.logo1 li a{
+    text-decoration: none;
+    color: white;
 }
 /*main section*/
-.About{
-    
-    background-color:aqua;
-    color:black;
-    text-align: center;
+.intro{
+    display:flex;
+    background-color:darkkhaki;
+    color:rgba(0, 0, 0, 0.788);
+    margin-top: 3vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
 }
-   img {
-height: 100px;
-width:100px;
-border-radius: 50%;
-    }
-    
-.contact{
-    
-    background-color:aqua;
+.intro2 img{
+    height: 60vh;
+    width: 60vh;
+    border-radius: 50%;
+    border:2px solid blue;
+}
+.intro1 a button{
+    color:white;
+    background-color:red;
+    border-radius: 6px;
+    padding: 3px;
+    margin-top: 60px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.intro1 h2 {
+    color:blue;
+    margin-bottom: 3vh;
+}
+.intro1 a button:hover{
     color:black;
+    transform: scale(1.5);
+
+}
+.about{
+    background-color: yellow;
+    color:black;
+    text-align:left;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.about h2{
     text-align: center;
-    padding-top: 4vh;
+    color:blue;
+    margin-bottom: 3vh;
 }
 
-.footer{
-    height: 3rem;
-    background-color: blue;
-    color:white;
+.education{
+
+
+    background-color:darkgrey;
+    color:black
+     
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    display :flex;
+}
+.education h2{
+    color:blue;
     text-align: center;
-    padding-top: 4vh;
+}
+.education div{
+    padding-left: 5vh;
+    text-align: center;
+}
+.education div legend button{
+    color:black;
+    background-color:red;
+}
+.education div legend button:hover
+{
+    color:white;
+    transform: scale(1.1);
+}
+.contact h2{
+    color:blue;
+    text-align: center;
+}
+.contact{
+    background-color: skyblue;
+    color:black;
+    text-align: left;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+}
+.contact a button{
+color:white;
+    background-color:red;
+    border-radius: 6px;
+    padding: 3px;
+    margin-top: 6px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.contact a button:hover{
+    color:black;
+    transform: scale(1.5);
+
+}
+.education h2{
+color:blueviolet;
 }
