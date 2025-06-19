@@ -4,98 +4,82 @@
     margin:0;
     padding:0;
 }
-nav{
+/*navigation section*/
+.nav{
     
-    background-color:cornflowerblue; 
+    background-color:rgb(108, 135, 184); 
     display:flex;  
-    justify-content: space-between;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    justify-content: right;
+   padding-bottom: 3vh;
+   padding-top: 3vh;
 }
-.logo1{
-    list-style: none;
-    display: flex;
-}
-.logo1 li{
-    padding-left: 1rem;
-}
-.logo a{
+.nav a{
+    
+    
+    padding-left: 3vh;
+    padding-right: 3vh;
     text-decoration: none;
     color: white;
-    font-size: xx-large;
-    font-weight: bold ;
-}
-.logo1 li a{
-    text-decoration: none;
-    color: white;
+    font-size:large;
+     
 }
 /*main section*/
 .intro{
     display:flex;
-    background-color:darkkhaki;
+    background-color:lightpink;
     color:rgba(0, 0, 0, 0.788);
-    margin-top: 3vh;
+    
     padding-top: 3vh;
     padding-bottom: 3vh;
     padding-left: 3vh;
     padding-right: 3vh;
 }
+
 .intro2 img{
     height: 60vh;
     width: 60vh;
     border-radius: 50%;
     border:2px solid blue;
+
 }
-.intro1 a button{
-    color:white;
-    background-color:red;
-    border-radius: 6px;
-    padding: 3px;
-    margin-top: 60px;
-    margin-left: 3px;
-    cursor: pointer;
-}
+
 .intro1 h2 {
     color:blue;
     margin-bottom: 3vh;
 }
-.intro1 a button:hover{
-    color:black;
-    transform: scale(1.5);
 
-}
-.about{
-    background-color: yellow;
+.About{
+    background-color:paleturquoise;
     color:black;
     text-align:left;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+   padding-bottom: 3vh;
+   padding-top: 3vh;
+   
 }
-.about h2{
+.About h2{
     text-align: center;
     color:blue;
     margin-bottom: 3vh;
-}
-
-.education{
-
-
-    background-color:darkgrey;
-    color:black
-     
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    display :flex;
 }
 .education h2{
-    color:blue;
     text-align: center;
+      margin-bottom: 5vh;
+}
+.education ul{
+    list-style: none;
+}
+.education{
+   background-color:darkgrey;
+    color:black;  
+    padding-bottom: 3vh; 
+    padding-top: 3vh;  
 }
 .education div{
     padding-left: 5vh;
     text-align: center;
+    padding-right:5vh;
+    padding-bottom: 3vh;
+    
 }
 .education div legend button{
     color:black;
@@ -106,17 +90,22 @@ nav{
     color:white;
     transform: scale(1.1);
 }
+/*Contact Section*/
 .contact h2{
     color:blue;
     text-align: center;
 }
 .contact{
-    background-color: skyblue;
+    background-color:skyblue;
     color:black;
     text-align: left;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    text-align: center;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
 
+}
+.contact a{
+    text-decoration: none;
 }
 .contact a button{
 color:white;
@@ -134,4 +123,15 @@ color:white;
 }
 .education h2{
 color:blueviolet;
+}
+/*footer section*/
+.footer{
+    background-color:green;
+   
+}
+.footer h2{
+    color:white;
+    text-align: center;
+    padding-bottom:3vh;
+    padding-top:3vh;
 }
