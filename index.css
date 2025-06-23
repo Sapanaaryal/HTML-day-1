@@ -5,15 +5,36 @@
     padding:0;
 }
 /*navigation section*/
-.nav{
+nav{
     
     background-color:rgb(108, 135, 184); 
     display:flex;  
-    justify-content: right;
+    justify-content:space-between;
    padding-bottom: 3vh;
    padding-top: 3vh;
+
+
 }
-.nav a{
+nav select{
+    display:flex;
+}
+@media (min-width: 700px){
+     nav select{
+        display:flex;
+        flex-direction:column;
+    }
+    nav select{
+        display:none;
+    }
+}
+.logo a {
+    display:flex;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color:white;
+}
+nav a{
     
     
     padding-left: 3vh;
@@ -22,6 +43,10 @@
     color: white;
     font-size:large;
      
+}
+.logo1{
+    list-style: none;
+    display: none;
 }
 /*main section*/
 .intro{
@@ -40,12 +65,16 @@
     width: 60vh;
     border-radius: 50%;
     border:2px solid blue;
+   
 
 }
 
 .intro1 h2 {
     color:blue;
     margin-bottom: 3vh;
+}
+nav select{
+    display:flex;
 }
 
 .About{
@@ -72,7 +101,8 @@
    background-color:darkgrey;
     color:black;  
     padding-bottom: 3vh; 
-    padding-top: 3vh;  
+    padding-top: 3vh; 
+    
 }
 .education div{
     padding-left: 5vh;
@@ -82,13 +112,22 @@
     
 }
 .education div legend button{
-    color:black;
+    color:white;
     background-color:red;
 }
 .education div legend button:hover
 {
     color:white;
     transform: scale(1.1);
+}
+@media (min-width: 700px){
+     nav select{
+        display:flex;
+        flex-direction:column;
+    }
+    nav select{
+        display:none;
+    }
 }
 /*Contact Section*/
 .contact h2{
