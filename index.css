@@ -1,147 +1,249 @@
-
-*
-{
+*{
     margin:0;
     padding:0;
 }
-/*navigation section*/
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+/* navigation section */
 nav{
-    
-    background-color:rgb(108, 135, 184); 
-    display:flex;  
-    justify-content:space-between;
-   padding-bottom: 3vh;
-   padding-top: 3vh;
-
-
-}
-nav select{
-    display:flex;
-}
-@media (min-width: 700px){
-     nav select{
-        display:flex;
-        flex-direction:column;
-    }
-    nav select{
-        display:none;
-    }
-}
-.logo a {
-    display:flex;
-    text-decoration: none;
-    font-size: large;
-    font-weight: bold;
-    color:white;
-}
-nav a{
-    
-    
-    padding-left: 3vh;
-    padding-right: 3vh;
-    text-decoration: none;
-    color: white;
-    font-size:large;
+    display: flex;
+    justify-content: space-between;
      
+      background-color: bisque;
+    align-items: center;
 }
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+     flex-wrap: wrap;
+}
+.logo img{
+    height: 2rem;
+    width: 6rem;
+}
+
+
+.logo1 a{
+   
+    text-decoration: none;
+color:black;
+
+font-weight:500;
+
+}
+
 .logo1{
     list-style: none;
-    display: none;
-}
-/*main section*/
-.intro{
-    display:flex;
-    background-color:lightpink;
-    color:rgba(0, 0, 0, 0.788);
+    display: flex;
+    justify-content:space-between;
+    gap:3%;
+    font-size:small;
+    flex-direction: row;
+    padding:3vh ;
+    margin: 0;
     
+    
+
+}
+
+.logo1 li{
+    margin: 5px 0;
+}
+.e{
+    position: absolute;
+    top: 120px;
+}
+.e 1{
+    margin: 1vh;
+}
+.e h1{
+    font-size: 25px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.e h2{
+    color: white;
+    font-size: 15px;
+}
+.e a button{
+    margin-top: 7vh;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:brown;
+    color:white;
+    border-radius:15%;
+    padding:2vh;
+}
+/* About Section */
+.intro{
+    
+      background-color: rgba(255, 228, 196, 0.718);
+}
+.intro1 h1{
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: navy;
+}
+.intro1 span{
+    color:orange;
+}
+.intro1 ul{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom:2rem ;
+}
+.font{
+ border: 1px solid #333;
+      padding: 10px;
+      width: 100px;
+      border-radius: 8px;
+      font-size: 14px;
+      background-color: white;
+      margin-left: 90vh;
+    text-align: center;
+    margin-bottom: 10vh;
+    display: flex;
+    align-items: center;
+}
+/* Study Abroad */
+.aa{
+    background-color: rgba(173, 216, 230, 0.647);
+       background-color: rgba(255, 228, 196, 0.718)
+}
+.aa h3{
+    color: navy;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+ .ab {
+      border: 1px solid #333;
+      padding: 10px;
+      width: 500px;
+      border-radius: 8px;
+      font-size: 14px;
+      background-color: white;
+      margin-left: 20vh;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+/* Service section */
+.Service{
+    background-color:rgba(173, 216, 230, 0.647);
+       background-color: rgba(255, 228, 196, 0.718);
+    
+}
+.Service h2{
+    text-align: center;
+padding-bottom: 1vh;
+color:black;
+font-family: Arial, Helvetica, sans-serif;
+}
+.Service h4{
+    text-align: center;
+    padding-bottom: 2vh;
+    color:navy;
+}
+.Service h3{
+    color: black;
+    font-weight: bold;
+    text-align: center;
     padding-top: 3vh;
     padding-bottom: 3vh;
-    padding-left: 3vh;
-    padding-right: 3vh;
 }
-
-.intro2 img{
-    height: 60vh;
-    width: 60vh;
-    border-radius: 50%;
-    border:2px solid blue;
-   
-
-}
-
-.intro1 h2 {
-    color:blue;
-    margin-bottom: 3vh;
-}
-nav select{
-    display:flex;
-}
-
-.About{
-    background-color:paleturquoise;
-    color:black;
-    text-align:left;
-   padding-bottom: 3vh;
-   padding-top: 3vh;
-   
-}
-.About h2{
-    text-align: center;
-    color:blue;
-    margin-bottom: 3vh;
-}
-.education h2{
-    text-align: center;
-      margin-bottom: 5vh;
-}
-.education ul{
-    list-style: none;
-}
-.education{
-   background-color:darkgrey;
-    color:black;  
-    padding-bottom: 3vh; 
-    padding-top: 3vh; 
+.Service p{
+    color:darkslategrey;
+    padding: 3vh;
+    font-size: large;
     
+    font-weight: 500;
 }
-.education div{
-    padding-left: 5vh;
+.img{
+     border: 1px solid #333;
+      padding: 10px;
+      width: 500px;
+      border-radius: 8px;
+      font-size: 14px;
+      background-color: white;
+      margin-left: 20vh;
     text-align: center;
-    padding-right:5vh;
-    padding-bottom: 3vh;
-    
+    margin-bottom: 10vh;
 }
-.education div legend button{
-    color:white;
-    background-color:red;
+/* why section */
+.page h1{
+    color: navy;
 }
-.education div legend button:hover
-{
-    color:white;
-    transform: scale(1.1);
-}
-@media (min-width: 700px){
-     nav select{
-        display:flex;
-        flex-direction:column;
-    }
-    nav select{
-        display:none;
-    }
-}
-/*Contact Section*/
-.contact h2{
-    color:blue;
+
+.book{
+    border: 1px solid #333;
+      padding: 10px;
+      width: 500px;
+      border-radius: 8px;
+      font-size: 14px;
+      background-color: white;
+      margin-left: 20vh;
     text-align: center;
+    margin-bottom: 10vh;
 }
+/* Test section */
+.div{
+    color: navy;
+    margin-bottom: 10vh;
+}
+.pre{
+ border: 1px solid #333;
+      padding: 10px;
+      width: 500px;
+      border-radius: 8px;
+      font-size: 14px;
+      background-color: white;
+      margin-left: 20vh;
+    text-align: center;
+    margin-bottom: 10vh;}
+    /* contact section */
 .contact{
-    background-color:skyblue;
+  margin-top: 2vh;
     color:black;
     text-align: left;
     text-align: center;
     padding-bottom: 3vh;
     padding-top: 3vh;
+  
 
+}
+.dd{
+    background-color: rgba(173, 216, 230, 0.647);
+    
+}
+.dd h2{
+    margin: 2vh;
+    text-align: center;
+    color:navy
+}
+.dd form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    gap: 15px;
+}
+.dd input , .dd textarea{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid brown;
+border-radius: 5px;
+}
+.dd button{
+    background-color: #007BFF;
+    color:white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .contact a{
     text-decoration: none;
@@ -160,17 +262,69 @@ color:white;
     transform: scale(1.5);
 
 }
-.education h2{
-color:blueviolet;
-}
-/*footer section*/
-.footer{
-    background-color:green;
-   
-}
-.footer h2{
-    color:white;
+/* footer section */
+footer{
+    background-color: #343a40;
+    color: white;
     text-align: center;
-    padding-bottom:3vh;
-    padding-top:3vh;
+    padding: 10px;
 }
+
+
+
+
+
+body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .form-box form{
+        background-color: #ccc;
+    }
+    .form-box h2 {
+      margin-top: 0;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      color: #333;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      margin-top: 15px;
+    }
+    .checkbox-container input {
+      margin-right: 10px;
+    }
+    .register-btn {
+      background-color: #1c1f5f;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      margin-top: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .register-btn:hover {
+      background-color: #3034a6;
+    }

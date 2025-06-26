@@ -1,0 +1,103 @@
+*
+{
+    margin:0 ;
+    padding: 0;
+}
+.logo img{
+    height: 20vh;
+    width: 20vh;
+}
+/* nav section*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1vh;
+    padding-right: 3vh;
+    padding-left: 3vh;
+    padding-bottom: 1vh;
+    align-items: center;
+    background-color: bisque;
+    
+}
+.logo1{
+    display: flex;
+    list-style: none;
+
+}.logo1 a{
+    display: flex;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+ margin-right: 10vh;
+}
+.logo1 button{
+    background-color: brown;
+    color: white;
+    font-size:x-large ;
+}
+.e{
+    position: absolute;
+    bottom: 90px;
+}
+.e 1{
+    margin: 5vh;
+}
+.e h1{
+    font-size: 44px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.e h2{
+    color: white;
+    font-size: 32px;
+}
+.e a button{
+    margin-top: 7vh;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:brown;
+    color:white;
+    border-radius:15%;
+    padding:2vh;
+}
+.book{
+    display: flex;
+    font-size: 22;
+    background-color:antiquewhite;
+    gap: 2vh;
+
+}
+.page{
+    text-align: center;
+    padding: 3vh;
+     background-color:antiquewhite;
+}
+.class{
+    text-align: center;
+    margin-top: 2vh;
+}
+.drop1{
+    text-align: center;
+    background-color:rgb(55, 83, 169);
+}
+.drop1 h1{
+    font-size: 6vh;
+}
+.drop2{
+    display: flex;
+    text-align: center;
+    padding: 2vh;
+    height: 20vh;
+    background-color: white;
+}
+.drop3{
+    padding: 2vh;
+    text-align: center;
+    background-color: antiquewhite;
+} 
+.box{
+display: flex;
+gap: 10vh;
+padding: 2vh;
+}

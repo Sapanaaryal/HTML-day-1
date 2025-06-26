@@ -1,0 +1,167 @@
+
+*
+{
+    margin:0;
+    padding:0;
+}
+/*navigation section*/
+nav{
+    
+    background-color:rgb(108, 135, 184); 
+    display:flex;  
+    justify-content:space-between;
+   padding-bottom: 3vh;
+   padding-top: 3vh;
+   padding-left: 3vh;
+
+
+}
+nav select{
+    display:flex;
+}
+@media (min-width: 700px){
+     nav select{
+        display:flex;
+        flex-direction:column;
+    }
+    nav select{
+        display:none;
+    }
+}
+.logo a {
+    display:flex;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color:white;
+}
+
+.logo1{
+    list-style: none;
+    display:none;
+}
+/*main section*/
+.intro{
+    display:flex;
+    background-color:lightpink;
+    color:rgba(0, 0, 0, 0.788);
+    
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+.intro2 img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    border:2px solid blue;
+   flex-wrap: wrap;
+   
+
+}
+
+.intro1 h2 {
+    color:blue;
+    margin-bottom: 3vh;
+}
+
+
+.About{
+    background-color:paleturquoise;
+    color:black;
+    text-align:left;
+   padding-bottom: 3vh;
+   padding-top: 3vh;
+   
+}
+.About h2{
+    text-align: center;
+    color:blue;
+    margin-bottom: 3vh;
+}
+.education h2{
+    text-align: center;
+      margin-bottom: 5vh;
+}
+.education ul{
+    list-style: none;
+}
+.education{
+   background-color:darkgrey;
+    color:black;  
+    padding-bottom: 3vh; 
+    padding-top: 3vh; 
+    
+}
+.education div{
+    padding-left: 5vh;
+    text-align: center;
+    padding-right:5vh;
+    padding-bottom: 3vh;
+    
+}
+.education div legend button{
+    color:white;
+    background-color:red;
+}
+.education div legend button:hover
+{
+    color:white;
+    transform: scale(1.1);
+}
+@media (min-width: 700px){
+     nav select{
+        display:flex;
+        flex-direction:column;
+    }
+    nav select{
+        display:none;
+    }
+}
+/*Contact Section*/
+.contact h2{
+    color:blue;
+    text-align: center;
+}
+.contact{
+    background-color:skyblue;
+    color:black;
+    text-align: left;
+    text-align: center;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+
+}
+.contact a{
+    text-decoration: none;
+}
+.contact a button{
+color:white;
+    background-color:red;
+    border-radius: 6px;
+    padding: 3px;
+    margin-top: 6px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.contact a button:hover{
+    color:black;
+    transform: scale(1.5);
+
+}
+.education h2{
+color:blueviolet;
+}
+/*footer section*/
+.footer{
+    background-color:green;
+   
+}
+.footer h2{
+    color:white;
+    text-align: center;
+    padding-bottom:3vh;
+    padding-top:3vh;
+}
