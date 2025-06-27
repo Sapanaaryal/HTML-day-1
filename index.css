@@ -4,7 +4,7 @@
 }
 body{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.6;
+    
 }
 /* navigation section */
 nav{
@@ -90,23 +90,19 @@ font-weight:500;
 .intro1 span{
     color:orange;
 }
-.intro1 ul{
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom:2rem ;
-}
+
 .font{
  border: 1px solid #333;
       padding: 10px;
       width: 100px;
       border-radius: 8px;
-      font-size: 14px;
+      font-size: 1rem;
       background-color: white;
       margin-left: 90vh;
     text-align: center;
-    margin-bottom: 10vh;
-    display: flex;
-    align-items: center;
+    margin-bottom: 5vh;
+   
+   
 }
 /* Study Abroad */
 .aa{
@@ -280,7 +276,7 @@ body {
       text-align: center;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+
     }
     
     .form-box form{
@@ -328,3 +324,34 @@ body {
     .register-btn:hover {
       background-color: #3034a6;
     }
+     /* Mobile */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 992px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Laptop/Desktop */
+@media (min-width: 993px) {
+  body {
+    font-size: 1rem;
+  
+
+/* Instead of font-size: 16px; */
+
+
+
+}
+}
+ img {
+  max-width: 100%;
+  height: auto;
+ }
